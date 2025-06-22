@@ -1,3 +1,30 @@
-node_modules/
+# Ignore node_modules for both frontend and backend
+**/node_modules/
+
+# Ignore build output
+**/dist/
+**/build/
+
+# OS-specific files
 .DS_Store
-.env
+Thumbs.db
+
+# Environment variables
+**/.env
+
+# Vite-specific
+**/.vite
+
+# Log files
+**/*.log
+
+# npm cache
+.npm/
+
+# editor configs
+.vscode/
+.idea/
+*.swp
+
+# macOS specific
+*.DS_Store
