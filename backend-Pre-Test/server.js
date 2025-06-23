@@ -1,7 +1,7 @@
 // server.js
-import express from 'express';
-import { loggerMiddleware } from './middleware/logger.js';
-import router from './routes/index.js';
+const express=require('express');
+const router=require('./routes');
+const loggerMiddleware=require('./middleware/loggerMiddleware');
 
 const app = express();
 

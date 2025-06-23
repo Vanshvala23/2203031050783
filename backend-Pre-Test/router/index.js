@@ -1,7 +1,6 @@
 // routes/index.js
-import express from 'express';
-import { logEvent } from '../middleware/logger.js';
-
+const express = require('express');
+const { logEvent } = require('../middleware/logger.js');
 const router = express.Router();
 
 router.get('/test-error', async (req, res) => {
