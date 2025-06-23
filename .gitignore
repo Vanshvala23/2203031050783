@@ -1,5 +1,6 @@
-# Ignore node_modules for both frontend and backend
+# Ignore node_modules for both frontend and backend and loggingMiddleware
 **/node_modules/
+**/logs/
 
 # Ignore build output
 **/dist/
